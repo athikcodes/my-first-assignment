@@ -5,59 +5,65 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Fira Sans;
-    
+  
+}
 
+
+
+.bangladesh-idea{
    
-}
-
-
-
-heading{
-    max-width: 1280px;
-    
-    
-}
-.header-container{
-    background-color: #C6E4D6;
-    display: flex;
-    justify-content: space-between;
+    margin:20px 160px 80px 160px;
     border-radius: 24px;
-    margin: 20px 160px 80px 160px ;
-    gap: 64px;
+    background: rgb(198, 228, 214);
+   
+    
+}
+.bangladesh{
+    display: flex;
+    justify-content:space-between;
     padding: 80px 100px;
-}
-.container{
+
     
     
 }
-.heading-title{
-    font-size: 24px;
-    font-weight: 500;
-    color: #0E0E0E80;
-    margin-bottom: 16px;
-}
-.heading-sub-title{
-    font-size: 56px;
-    font-weight: 700;
-    color: rgb(14, 14, 14);
+.bangladesh-container{
+    margin-top: 37px;
    
 }
+.idea-p{
+color: rgba(14, 14, 14, 0.5);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+margin-bottom: 16px;
+}
+.idea-h{
+color: rgb(14, 14, 14);
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+margin-bottom: 24px;
+}
 
-.heading-btn{
-    font-size: 18px;
-    font-weight: 600;
-    color:#FFFFFF;
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    margin: 24px 0px;
+.button-one{
+    
+
+
+}
+.idea-b{
     width: 270px;
     height: 56px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
     border: none;
-    
+
+
 }
-.header-sub-container{
-    text-align: center;
-}
+
+
 
 /* the vision of future */
 
@@ -67,6 +73,7 @@ heading{
 .the-vision{
     display: flex;
     justify-content: space-between;
+    
 }
 .cart-vision{
     width: 410.67px;
@@ -319,8 +326,6 @@ margin-bottom: 32px;
     justify-content: center;
     flex-direction: row;
     gap: 24px;
-    
-   
     
     
 }
