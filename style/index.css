@@ -5,35 +5,36 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Fira Sans;
-   
-
-
-
     
 
+   
 }
 
 
 
 heading{
     max-width: 1280px;
+    
+    
 }
 .header-container{
     background-color: #C6E4D6;
     display: flex;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 120px 160px 0 160px;
+    margin: 20px 160px 80px 160px ;
     gap: 64px;
     padding: 80px 100px;
 }
 .container{
+    
     
 }
 .heading-title{
     font-size: 24px;
     font-weight: 500;
     color: #0E0E0E80;
+    margin-bottom: 16px;
 }
 .heading-sub-title{
     font-size: 56px;
@@ -136,7 +137,7 @@ margin-bottom: 12px;
     margin-bottom: 29px;
 }
 .cart-main-btn{
-    flex-direction: column;
+    
   
    
 
@@ -179,21 +180,42 @@ border: none;
 
 }
 /* recent news */
+main{
+    background: rgb(245, 245, 245);
+}
+.section-2{
+    margin: 0 160px;
+}
 .news-container{
-    margin: 80px 160px 0 160px;
+    padding: 48px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    border-radius: 24px;
+   
     
+
+}
 
 .recent-container{
     display: flex;
     justify-content: space-between;
-    gap: 32px;
-    padding: 48px;
     border-radius: 24px;
-    background: rgb(255, 255, 255);
+    
+    
+}
+.recent-container-2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+
+}
+.recent-container-3{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
 }
    
 
-}
 .news-images{
     max-width: 408px;
     min-height: 306px;
@@ -203,8 +225,8 @@ border: none;
 color: rgba(14, 14, 14, 0.8);
 font-size: 32px;
 font-weight: 700;
-line-height: 38px;
-margin: 12px 0px;
+margin-bottom: 12px;
+
 }
 .pic-al{
     width: 134px;
@@ -216,6 +238,7 @@ color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
+margin-bottom: 12px;
 
 
 }
@@ -224,7 +247,9 @@ color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-margin: 12px 0px;
+margin-bottom: 32px;
+
+
 }
 .news-btn{
 border-radius: 8px;
@@ -235,5 +260,113 @@ font-weight: 600;
 color:#FFFFFF;
 border: none;
 }
+.lanch-container{
+    padding: 8px 0px 8px 32px;
+
+}
+.lanch-container-2{
+
+
+}
+
+.recent-hed{
+color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 24px;
+margin-top: 80px;
+
+
+
+    
+}
+.recent-paragraph{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 32px;
+
+
+
+}
+/* donat-today-section */
+
+.donate-section-container{
+    margin: auto 160px;
+}
+
+.donate-today{
+color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+margin-bottom: 24px;
+
+}
+.donate-pragraph{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-bottom: 32px;
+
+}
+.btn-donate{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    
+   
+    
+    
+}
+.btn-1{
+width: 264px;
+height: 128px;
+color: rgba(14, 14, 14, 0.8);
+border-radius: 16px;
+background-color: white;
+font-size: 40px;
+font-weight: 700;
+border: none;
+margin-bottom: 32px;
+
+
+
+
+
+}
+.color-btn{
+    background-color: #C6E4D6;
+}
+.input-first{
+        display: flex;
+        justify-content: center;
+        margin: 32px 124px;
+        padding: 0 40px;
+    
+  
+   
+}
+.input-first-one{
+    width: 1032px;
+    height: 64px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+.last-btn{
+    text-align: center;
+}
+
+
 
 
