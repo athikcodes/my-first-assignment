@@ -7,6 +7,32 @@
     font-family: Fira Sans;
   
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 160px 24px 160px;
+
+}
+.navbar-hed{
+color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+margin-top: 31px;
+
+}
+.sign-btn{
+width: 116px;
+height: 52px;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+color: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+margin-top: 24px;
+margin-bottom: 24px;
+
+}
 
 
 
@@ -189,6 +215,7 @@ border: none;
 /* recent news */
 main{
     background: rgb(245, 245, 245);
+   
 }
 .section-2{
     margin: 0 160px;
@@ -371,7 +398,72 @@ margin-bottom: 32px;
 .last-btn{
     text-align: center;
 }
+/* challenge is on */
 
+.newsletter-content{
+        margin: 80px 160px 80px 160px;
+        border-radius: 24px;
+        background: rgb(198, 228, 214);
+}
+.news-container-on{
+    text-align: center;
+    padding: 80px 100px;
+    
+}
+.news-heading{
+color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+margin-bottom: 16px;
+
+}
+.news-head-pra{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 24px;
+
+}
+.input-time{
+    width: 600px;
+    height: 55px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-left: 40px;
+    border: none;
+    margin-bottom: 25px;
+    
+
+}
+.challenge-btn{
+ color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+width: 150px;
+height: 56px;
+border: none;
+padding: 16px 34px 16px 34px;
+border-radius: 0px 8px 8px 0px;
+
+
+
+
+
+}
+.roll-number{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+
+}
 
 
 
